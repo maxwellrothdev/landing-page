@@ -79,6 +79,7 @@ button.one {
     flex-direction: column;
     justify-self: center;
     align-items: center;
+    padding-bottom: 72px;
     background-color: #f9faf8
 }
 
@@ -93,15 +94,28 @@ button.one {
     display: flex;
 }
 
+.item-one,
+.item-two,
+.item-three,
+.item-four {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px;
+    margin-top: 0px;
+    width: 100px;
+    font-size: 18px;
+    text-align: center;
+}
+
 .image-two,
 .image-three,
 .image-four,
 .image-five {
-    margin-left: 36px;
     min-width: 100px;
     min-height: 100px;
     max-width: 100px;
     max-height: 100px;
+    margin-bottom: 8px;
     background-color: #f9faf8;
     border: 3px solid royalblue;
     border-radius: 8px;
