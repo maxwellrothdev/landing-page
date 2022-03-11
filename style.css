@@ -120,3 +120,25 @@ button.one {
     border: 3px solid royalblue;
     border-radius: 8px;
 }
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    padding-top: 92px;
+    padding-bottom: 92px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.ref {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: right;
+}
