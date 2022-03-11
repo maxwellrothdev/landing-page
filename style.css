@@ -18,7 +18,7 @@ body {
     font-size: 24px;
 }
 
-.links {
+.nav {
     display: flex;
     color: #e5e7eb;
     font-size: 18px;
@@ -72,4 +72,37 @@ button.one {
     min-width: 400px;
     min-height: 200px;
     background-color: #e5e7eb
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    background-color: #f9faf8
+}
+
+.info-header {
+    margin: 36px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
+}
+
+.image-box {
+    display: flex;
+}
+
+.image-two,
+.image-three,
+.image-four,
+.image-five {
+    margin-left: 36px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: #f9faf8;
+    border: 3px solid royalblue;
+    border-radius: 8px;
 }
