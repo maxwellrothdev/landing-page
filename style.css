@@ -13,7 +13,8 @@ body {
     background-color: #1f2937;
 }
 
-.header-logo {
+.header-logo,
+.cta-title {
     color: #f9faf8;
     font-size: 24px;
 }
@@ -63,8 +64,8 @@ button {
 button.one {
     margin-top: 12px;
     color: white;
-    background-color: royalblue;
-    border: 1px solid royalblue;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
 }
 
 .image-one {
@@ -141,4 +142,22 @@ button.one {
     font-size: 18px;
     font-weight: bolder;
     text-align: right;
+}
+
+.container-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 92px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 92px;
+    padding-right: 92px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.container-four button {
+    border: 1px solid #e5e7eb;
 }
